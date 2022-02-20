@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Arama kısmının tasarimini yapiyoruz.-->
+
+    <corners android:radius = "100dp"/><!--Basta dikdortgen seklinde belirledigimiz seklin(rectangle) kenar yumusatmasini(border-radius,radius) yapiyoruz.-->
+    <solid android:color="@color/white"/><!--Seklimizin rengini belirliyoruz.-->
+    <padding android:left="10dp"/><!--Sekil icine gelecek "nesne ici bosluk" degerini ayarliyoruz.-->
+
+</shape>

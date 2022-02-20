@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Asagidan baslayip yukari dogru giden animasyon-->
+    <!--Dondurme animasyonu-->
+    <translate android:duration="1000"
+        android:fromXDelta="0%"
+        android:fromYDelta="100%"/><!--x'in 0'indan y ekseninin 100'une dogru 1000 milisaniye icerisinde hareket etsin-->
+
+    <!--Gorunurluk(opacity) degerinin ayarlanmasi-->
+    <alpha android:duration = "1400"
+           android:fromAlpha="0"
+           android:toAlpha="1"
+        />
+    <!--0'dan(hic gorunmez) 1'e dogru(tamamen gorunur) hale gelmesi 1400 milisaniye sursun-->
+
+</set>
